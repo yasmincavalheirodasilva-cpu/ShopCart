@@ -3,7 +3,7 @@ public class Item {
     double preco;
 
     public void aplicarCupom(double desconto) {
-        preco = preco + desconto;
+        preco = preco - desconto;
     }
 
 }
